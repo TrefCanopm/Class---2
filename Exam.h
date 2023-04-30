@@ -18,4 +18,5 @@ public:
 	void setFIO(string str);
 	void setSubject(string str);
 	void setEvaluation(int i);
+	~Exam();
 };

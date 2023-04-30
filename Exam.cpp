@@ -42,3 +42,8 @@ void Exam::setSubject(string str)
 {
 	subject = str;
 }
+
+Exam::~Exam()
+{
+	cout << "Del Exam" << endl;
+}
